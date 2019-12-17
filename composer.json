@@ -1,0 +1,26 @@
+{
+    "name": "scancode/append-price-list-client-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\AppendPriceListClient\\Providers\\AppendPriceListClientServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AppendPriceListClient\\": ""
+        }
+    },
+    "type": "laravel-module"
+}
