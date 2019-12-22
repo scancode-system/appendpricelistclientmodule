@@ -16,7 +16,7 @@ class InsertAppendsRecordsPricelistclient extends Migration
     public function up()
     {
         $validation = Validation::where('module_name', 'ValidationClient')->first();
-        Append::create(['validation_id' => $validation->id, 'module' => 'AppendPriceListClient', 'alias' => 'Tabela de Preço Cliente']);
+        Append::create(['validation_id' => $validation->id, 'module' => 'AppendPriceListClient', 'alias' => 'Tabela de Preço Cliente (Cliente)']);
     }
 
     /**
